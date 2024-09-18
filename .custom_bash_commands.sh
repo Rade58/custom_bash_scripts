@@ -5,15 +5,24 @@ lazyg() {
 	git status
 	git add -A
 	git status
-	git commit -m "$1"
+	if [ $# -eq 0 ]
+		git commit -am "$1"
+	then 
+		git commit -am "🚀"
+	fi
 }
+
 
 # with push to github
 lazygh(){
 	git status
 	git add -A
 	git status
-	git commit -m "$1"
+	if [ $# -eq 0 ]
+		git commit -am "$1"
+	then 
+		git commit -am "🚀"
+	fi
 	git push
 }
 
