@@ -12,8 +12,7 @@ lazyg() {
 	fi
 }
 
-
-# with push to github
+# Custom git function with push to github
 lazygh(){
 	git status
 	git add -A
@@ -25,7 +24,6 @@ lazygh(){
 	fi
 	git push
 }
-
 
 # greetings on serbian (easy command to see if scripts work)
 function zdravo(){
