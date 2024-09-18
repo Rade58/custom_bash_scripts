@@ -5,7 +5,7 @@ lazyg() {
 	git status
 	git add -A
 	git status
-	if [ $# -eq 0 ];
+	if [ -z "$1" ]
 		git commit -am "🚀"
 	then 
 		git commit -am "$1"
@@ -17,7 +17,7 @@ lazygh(){
 	git status
 	git add -A
 	git status
-	if [ $# -eq 0 ];
+	if [ -z "$1" ]
 		git commit -am "🚀"
 	then
 		git commit -am "$1"
