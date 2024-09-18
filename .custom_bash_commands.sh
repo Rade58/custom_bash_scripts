@@ -15,5 +15,5 @@ lazygh(){
 
 # greetings on serbian (easy command to see if scripts work)
 function zdravo(){
-	echo 'Здраво' $1 '!' 
+	echo 'Здраво' $1 '!'
 }
