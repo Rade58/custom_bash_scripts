@@ -25,7 +25,8 @@ lazygh(){
 	git push
 }
 
-# greetings on serbian (easy command to see if scripts work)
+# greetings on serbian 
+# (easy command to see if scripts work)
 function zdravo(){
 	echo 'Здраво' $1 '!'
 }
