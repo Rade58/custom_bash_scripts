@@ -5,9 +5,9 @@ lazyg() {
 	git status
 	git add -A
 	git status
-	if [ -z "$1" ]
+	if [ -z "$1" ]; then
 		git commit -am "🚀"
-	then 
+	else
 		git commit -am "$1"
 	fi
 }
@@ -17,9 +17,9 @@ lazygh(){
 	git status
 	git add -A
 	git status
-	if [ -z "$1" ]
+	if [ -z "$1" ]; then
 		git commit -am "🚀"
-	then
+	else
 		git commit -am "$1"
 	fi
 	git push
