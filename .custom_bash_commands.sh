@@ -2,13 +2,18 @@
 
 # Custom git function
 lazyg() {
-	git add .
+	git status
+	git add -A
+	git status
 	git commit -m "$1"
 }
 
 # with push to github
 lazygh(){
-	lazyg()
+	git status
+	git add -A
+	git status
+	git commit -m "$1"
 	git push
 }
 
