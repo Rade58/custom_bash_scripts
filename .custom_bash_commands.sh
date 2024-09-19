@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Custom git function
-lazyg() {
+function lazyg() {
 	git status
 	git add -A
 	git status
@@ -13,7 +13,7 @@ lazyg() {
 }
 
 # Custom git function with push to github
-lazygh(){
+function lazygh(){
 	git status
 	git add -A
 	git status
@@ -24,6 +24,7 @@ lazygh(){
 	fi
 	git push
 }
+
 
 
 # greetings on serbian 
