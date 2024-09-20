@@ -25,7 +25,25 @@ function lazygh(){
 	git push
 }
 
+# ----------------------------------------
+function to-vaults(){
+	cd "/home/$USER/ObsidanVaults"
+}
+function to-programs(){
+	cd "/home/$USER/Programs"
+}
+function to-projects(){
+	cd "/home/$USER/Projects"
+}
+function to-workshops(){
+	cd "/home/$USER/Workshops"
+}
+function to-bashscripts(){
+	cd "/home/$USER/BashScripts"
+}
 
+
+# ----------------------------------------
 
 # greetings on serbian 
 # (easy command to see if scripts work)
