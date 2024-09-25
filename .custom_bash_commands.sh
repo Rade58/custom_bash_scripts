@@ -27,7 +27,7 @@ function lazygh(){
 
 # ----------------------------------------
 function to-vaults(){
-	cd "/home/$USER/ObsidanVaults"
+	cd "/home/$USER/ObsidianVaults"
 }
 function to-programs(){
 	cd "/home/$USER/Programs"
